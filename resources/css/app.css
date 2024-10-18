@@ -1,0 +1,54 @@
+        /* Estilos personalizados */
+        .page-header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .page-title {
+            font-size: 4rem; /* Tamaño de fuente grande */
+            font-weight: bold;
+            color: #333; /* Color del título */
+        }
+
+        .btn-crear-cita {
+            padding: 15px 30px; /* Aumento del padding para hacer el botón más grande */
+            font-size: 1.5rem; /* Tamaño de fuente más grande */
+            background-color: #007bff; /* Color de fondo */
+            color: white; /* Color del texto */
+            border: none; /* Sin borde */
+            border-radius: 5px; /* Bordes redondeados */
+            cursor: pointer; /* Cambia el cursor al pasar */
+            text-decoration: none; /* Sin subrayado */
+            transition: background-color 0.3s; /* Transición para hover */
+        }
+
+        .btn-crear-cita:hover {
+            background-color: #0056b3; /* Color de fondo al pasar el cursor */
+        }
+
+        .quienes-somos {
+            margin-top: 40px;
+            text-align: center; /* Centramos el texto */
+        }
+
+        .quienes-somos img {
+            max-width: 100%; /* Asegura que la imagen no sobresalga */
+            height: auto; /* Mantiene la proporción de la imagen */
+            border-radius: 10px; /* Bordes redondeados para la imagen */
+        }
+
+        .ventajas {
+            margin-top: 40px;
+        }
+
+        .ventaja-card {
+            border: 1px solid #ccc; /* Borde de las tarjetas */
+            border-radius: 5px; /* Bordes redondeados */
+            padding: 20px;
+            text-align: center; /* Centramos el texto dentro de la tarjeta */
+            margin: 10px; /* Espaciado entre tarjetas */
+        }
+
+        .ventaja-card h4 {
+            margin-top: 10px; /* Margen superior */
+        }
