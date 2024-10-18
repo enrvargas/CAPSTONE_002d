@@ -1,0 +1,2 @@
+
+<?php echo $__env->make('tablar::auth.passwords.email', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH C:\xampp\htdocs\tablarcurso\resources\views/auth/passwords/email.blade.php ENDPATH**/ ?>
